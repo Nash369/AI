@@ -9,7 +9,7 @@ The code files keep the lecturer's original names, so the number in a file name 
 | Week | Date | Lab | Code | Results | Submission |
 | :---: | :---: | --- | --- | --- | --- |
 | 4 | 2026/09/30 | Lab 02 - Search Foundations | [lab01_search_foundations.py](all_experiments/lab01_search_foundations.py) | [results/lab01](results/lab01) | - |
-| 5 | 2026/10/08 | Lab 03 - Informed Search | [lab02_informed_search.py](all_experiments/lab02_informed_search.py) | [results/lab02](results/lab02) | [Assignment 2](Assignment2) |
+| 5 | 2026/10/08 | Lab 03 - Informed Search | [lab02_informed_search.py](all_experiments/lab02_informed_search.py) | [results/lab02](results/lab02) | [Lab 03 Assignment](submissions/Lab03_Assignment) |
 | 6 | 2026/10/14 | Lab 04 - Search Engineering | [lab03_search_engineering.py](all_experiments/lab03_search_engineering.py) | [results/lab03](results/lab03) | - |
 | 7 | 2026/10/21 | Lab 05 - Fuzzy Logic and ANFIS | [lab04_fuzzy_anfis.py](all_experiments/lab04_fuzzy_anfis.py) | [results/lab04](results/lab04) | - |
 | 8 | 2026/10/28 | Lab 06 - Robotics Sensor Control | [lab05_robotics_sensor_control.py](all_experiments/lab05_robotics_sensor_control.py) | [results/lab05](results/lab05) | - |
@@ -23,10 +23,19 @@ The code files keep the lecturer's original names, so the number in a file name 
 
 ```
 AI/
-├── Assignment2/        Assignment 2 (search algorithms)
-├── all_experiments/    lab code and the utils/ search package
-├── results/            outputs from running each lab
-└── all_datasets/       datasets used by the labs
+├── all_datasets/               datasets used by the labs
+├── all_experiments/            lab scripts
+│   └── utils/                  shared utilities
+├── results/                    outputs from running each lab
+│   ├── lab01/ ... lab08/
+│   └── lab06-ocr-handwritten/
+├── submissions/                assignment submissions
+│   ├── Lab03_Assignment/
+│   ├── Lab07_Assignment/       OCR report and evidence/
+│   ├── Lab08_Assignment/       sentiment report and semantic network
+│   └── Lab09GA_Assignment/     genetic algorithm report, code, and output
+├── requirements.txt
+└── README.md
 ```
 
 ## Running the Labs
